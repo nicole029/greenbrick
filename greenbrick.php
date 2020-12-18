@@ -4,7 +4,7 @@
      * Description: Custom codes such as shortcodes for Green Brick
      * Author: Nicole Gonzaga
      * Author URI: https://github.com/nicole029
-     * Version: 1.0
+     * Version: 1.1
      * 
      */
     require 'plugin-update-checker/plugin-update-checker.php';
