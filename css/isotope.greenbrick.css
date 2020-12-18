@@ -1,0 +1,55 @@
+#projects-grid .grid-item{
+    width: calc(25% - 30px);
+    margin: 15px;
+}
+.grid-link{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.grid-figure{
+    width: 100%;
+    height: 300px;
+}
+.grid-image{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.grid-title{
+    margin: 0 0 5px;
+    padding: 0;
+}
+.grid-content{
+    background: rgba(255,255,255,0.6);
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.grid-link .grid-content{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.grid-link:hover .grid-content{
+    opacity: 1;
+}
+.grid-filter{
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.grid-filter:hover,
+.grid-filter:focus,
+.grid-filter.is-checked{
+    background:  #0E1C02;
+    color: #fff;
+}
